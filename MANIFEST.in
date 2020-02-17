@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pk_taxation *.css
+recursive-include pk_taxation *.csv
+recursive-include pk_taxation *.html
+recursive-include pk_taxation *.ico
+recursive-include pk_taxation *.js
+recursive-include pk_taxation *.json
+recursive-include pk_taxation *.md
+recursive-include pk_taxation *.png
+recursive-include pk_taxation *.py
+recursive-include pk_taxation *.svg
+recursive-include pk_taxation *.txt
+recursive-exclude pk_taxation *.pyc
