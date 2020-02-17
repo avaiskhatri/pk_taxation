@@ -120,3 +120,14 @@ app_license = "MIT"
 # 	"frappe.desk.doctype.event.event.get_events": "pk_taxation.event.get_events"
 # }
 
+fixtures = [
+       {
+         "dt": "Custom Field", 
+         "filters":[["name", "in", [
+             'Customer-cnic','Customer-ntn','Customer-strn',
+             'Supplier-cnic','Supplier-ntn','Supplier-strn',
+             'Sales Order-cnic','Sales Order-ntn','Sales Order-strn',
+             'Sales Invoice-cnic','Sales Invoice-ntn','Sales Invoice-strn',
+             ]]]
+      }
+]
