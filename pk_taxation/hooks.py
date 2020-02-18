@@ -124,10 +124,11 @@ fixtures = [
        {
          "dt": "Custom Field", 
          "filters":[["name", "in", [
-             'Customer-cnic','Customer-ntn','Customer-strn',
-             'Supplier-cnic','Supplier-ntn','Supplier-strn',
-             'Sales Order-cnic','Sales Order-ntn','Sales Order-strn',
-             'Sales Invoice-cnic','Sales Invoice-ntn','Sales Invoice-strn',
+              'Supplier-cnic', 'Supplier-ntn', 'Supplier-strn',
+              'Purchase Invoice-ntn', 'Purchase Invoice-strn', 'Purchase Invoice-cnic'
+              'Customer-cnic', 'Customer-ntn', 'Customer-strn',
+              'Sales Order-cnic', 'Sales Order-ntn', 'Sales Order-strn',
+              'Sales Invoice-cnic', 'Sales Invoice-ntn', 'Sales Invoice-strn',
              ]]]
       }
 ]
