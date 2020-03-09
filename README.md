@@ -1,6 +1,6 @@
 ## PK Taxation
 
-App Pakistan taxation fields
+ERP App to Handle Taxations fields for Pakistan.
 
 #### License
 

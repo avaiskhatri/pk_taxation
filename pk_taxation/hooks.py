@@ -124,11 +124,19 @@ fixtures = [
        {
          "dt": "Custom Field", 
          "filters":[["name", "in", [
+              'Item-pct_code',
               'Supplier-cnic', 'Supplier-ntn', 'Supplier-strn',
-              'Purchase Invoice-ntn', 'Purchase Invoice-strn', 'Purchase Invoice-cnic'
+              'Purchase Order Item-pct_code',
+              'Purchase Receipt Item-pct_code',
+              'Purchase Invoice-ntn', 'Purchase Invoice-strn', 'Purchase Invoice-cnic',
+              'Purchase Invoice Item-pct_code',
               'Customer-cnic', 'Customer-ntn', 'Customer-strn',
+              'Quotation Item-pct_code',
               'Sales Order-cnic', 'Sales Order-ntn', 'Sales Order-strn',
+              'Sales Order Item-pct_code',
+              'Delivery Note Item-pct_code',
               'Sales Invoice-cnic', 'Sales Invoice-ntn', 'Sales Invoice-strn',
+              'Sales Invoice Item-pct_code',
              ]]]
       }
 ]
