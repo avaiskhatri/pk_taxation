@@ -125,6 +125,7 @@ fixtures = [
          "dt": "Custom Field", 
          "filters":[["name", "in", [
               'Item-pct_code',
+              'Company-ntn','Company-strn','Company-cnic',
               'Supplier-cnic', 'Supplier-ntn', 'Supplier-strn',
               'Purchase Order Item-pct_code',
               'Purchase Receipt Item-pct_code',
