@@ -127,6 +127,8 @@ fixtures = [
               'Item-pct_code',
               'Company-ntn','Company-strn','Company-cnic',
               'Supplier-cnic', 'Supplier-ntn', 'Supplier-strn',
+              'Purchase Order-cnic', 'Purchase Order-ntn', 'Purchase Order-strn',
+              'Purchase Receipt-cnic', 'Purchase Receipt-ntn', 'Purchase Receipt-strn',
               'Purchase Order Item-pct_code',
               'Purchase Receipt Item-pct_code',
               'Purchase Invoice-ntn', 'Purchase Invoice-strn', 'Purchase Invoice-cnic',
