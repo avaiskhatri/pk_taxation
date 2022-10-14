@@ -140,6 +140,7 @@ fixtures = [
               'Delivery Note Item-pct_code',
               'Sales Invoice-cnic', 'Sales Invoice-ntn', 'Sales Invoice-strn',
               'Sales Invoice Item-pct_code',
+              'Employee-cnic','Employee-cnic_issue_date','Employee-cnic_expiry_date'
              ]]]
       }
 ]
